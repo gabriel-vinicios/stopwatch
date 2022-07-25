@@ -36,3 +36,101 @@
     transform: rotate(360deg);
   }
 }
+
+.start-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 22px;
+  background-color: #1FDF61;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #33ed61 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: left;
+  column-gap: 20px;
+  display: row;
+}
+
+.start-button:hover {
+  background: #088115;
+  border: solid #06A501 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.reset-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 22px;
+  background-color: #c2df1f;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #c8e73a 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: left;
+  column-gap: 20px;
+  display: row;
+}
+
+.reset-button:hover {
+  background: #6b8108;
+  border: solid #87a501 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.stop-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 22px;
+  background-color: #df1f1f;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #e73a3a 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  position: left;
+  display: row;
+  
+}
+
+.stop-button:hover {
+  background: #810808;
+  border: solid #a50101 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.button-group {
+  column-gap: 20px;
+  justify-content: space-between
+}
